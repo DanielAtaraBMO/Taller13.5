@@ -106,13 +106,14 @@ function Carrito() {
             }
             if (totalcompras >= 100) {
                 porcentaje = 0.1;
-                descuento = (totalcompras * descuento);
+                descuento = (totalcompras * porcentaje);
+                console.log(descuento)
                 pagar = totalcompras - descuento;
                 console.log("El descuento tiene un valor de:", descuento);
                 console.log("El valor a pagar es:", pagar);
             } else if (totalcompras >= 50) {
                 porcentaje = 0.05;
-                descuento = (totalcompras * descuento);               
+                descuento = (totalcompras * porcentaje);               
                 pagar = totalcompras - descuento;
                 console.log("El descuento tiene un valor de:", descuento);
                 console.log("El valor a pagar es:", pagar);
