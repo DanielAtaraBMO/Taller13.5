@@ -1,5 +1,5 @@
 // EJERCICIO 1 //
-/*
+
 function Libro(titulo, autor) {
 
     this.titulo = titulo;
@@ -85,7 +85,6 @@ LG.pausar();
 LG.play();
 LG.play();
 LG.detenido();
-*/
 // EJERCICIO 4: Carrito de compras con descuentos //
 
 function Carrito() {
